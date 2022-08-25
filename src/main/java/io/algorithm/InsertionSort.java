@@ -22,6 +22,7 @@ public class InsertionSort {
      */
     public static void insertion(int[] sorts) {
         int length = sorts.length;
+        // 从第1个数开始
         for (int i = 1; i < length; i++) {
             int value = sorts[i];
             int j = i - 1;
@@ -32,6 +33,7 @@ public class InsertionSort {
                     break;
                 }
             }
+            // 把一直比的那个数放到这里
             sorts[j + 1] = value;
         }
     }
