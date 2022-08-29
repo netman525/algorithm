@@ -7,6 +7,7 @@ package io.algorithm.array;
 /**
  *
  * #leetcode 495
+ * 提莫攻击
  *
  * https://leetcode.cn/problems/teemo-attacking/solution/ti-mo-gong-ji-by-leetcode-solution-6p4k/
  *
