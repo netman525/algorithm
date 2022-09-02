@@ -41,4 +41,9 @@ public class PalindromicString {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        String a = "a b,B a";
+        System.out.println(isPalindromic(a));
+    }
 }
