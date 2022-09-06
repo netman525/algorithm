@@ -47,5 +47,7 @@ public class PalindromicString {
         System.out.println(isPalindromic(a));
         String b = "a b,a";
         System.out.println(isPalindromic(b));
+        String c = "a b,   a";
+        System.out.println(isPalindromic(b));
     }
 }
