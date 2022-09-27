@@ -21,29 +21,18 @@ public class RemoveElements {
     }
 
     public static void main(String[] args) {
-        Node node01 = new Node();
-        node01.val = 1;
-        Node node02 = new Node();
-        node02.val = 2;
-        Node node03 = new Node();
-        node03.val = 3;
-        Node node04 = new Node();
-        node04.val = 4;
+        Node node01 = new Node(1);
+        Node node02 = new Node(2);
+        Node node03 = new Node(3);
+        Node node04 = new Node(4);
         node01.next = node02;
         node02.next = node03;
         node03.next = node04;
 
         Node node = removeElements(node01, 2);
-
         while (node != null) {
             System.out.println(node.val);
             node = node.next;
         }
-
-    }
-
-    static class Node{
-        int val;
-        Node next;
     }
 }
